@@ -11,6 +11,8 @@ import MenProductList from './components/MenProductList';
 import WomenProductList from './components/WomenProductList';
 import KidProductList from './components/KidProductList';
 import Home from './components/Home'
+import Modal from './components/Modal'
+import StoreModal from './components/StoreModal'
 
 function App() {
   return (
@@ -25,6 +27,9 @@ function App() {
         <Route path='/cart' component={Cart} />
         <Route component={Default} />
       </Switch>
+
+      <Modal />
+      <StoreModal />
     </React.Fragment>
     
   );

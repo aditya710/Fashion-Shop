@@ -6,22 +6,31 @@
   --mainBlack: #000000;
   --mainYellow: #ffa400;
   --mainCyan: #00bcd4;
+  --mainGreyBlue: #263238;
+  --mainLightGrey:#fafafa;
+  --mainPurple: #311b92;
+  --lightCyan: #4dd0e1;
+  --lightBlue: #bbdefb;
+  --mainLime: #c6ff00;
+
 }
 
 body{
   font-family: 'Rubik', sans-serif !important;
-  background: (var(--mainWhite)) !important;
+  background: (var(--mainLightGrey)) !important;
   color:var(--mainDark) !important;
+  font-size: medium;
 }
 
 .text-title{
   font-family: 'Fredoka One', cursive ;
   letter-spacing: 0.3rem;
   text-transform: uppercase;
+  font-size: medium;
 }
 
-.text-blue{
-  color: var(--mainBlue);
+.text-Greyblue{
+  color: var(--mainGreyBlue);
 }
 
 .text-bright{
