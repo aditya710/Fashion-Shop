@@ -18,22 +18,26 @@ export default function CartTotals({value}) {
                             <span className="text-title">
                             Sub Total:   
                             </span>
-                            <strong>$ {cartSubTotal}</strong>
+                            <strong>€ {cartSubTotal}</strong>
                         </h5>
 
                         <h5>
                             <span className="text-title">
                             Total Tax:    
                             </span>
-                            <strong>$ {cartTax}</strong>
+                            <strong>€ {cartTax}</strong>
                         </h5>
 
                         <h5>
                             <span className="text-title">
                             Total:    
                             </span>
-                            <strong>$ {cartTotal}</strong>
+                            <strong>€ {cartTotal}</strong>
                         </h5>
+                    
+                        <Link to='/checkout' className="ml-auto">
+                            <button type="button" className="btn btn-success">Checkout</button>
+                        </Link>
 
                     </div>
                 </div>

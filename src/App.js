@@ -13,6 +13,7 @@ import KidProductList from './components/KidProductList';
 import Home from './components/Home'
 import Modal from './components/Modal'
 import StoreModal from './components/StoreModal'
+import Checkout from './components/Checkout'
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route exact path='/kids' component={KidProductList} />
         <Route path='/details' component={Details} />
         <Route path='/cart' component={Cart} />
+        <Route path='/checkout' component={Checkout} />
         <Route component={Default} />
       </Switch>
 

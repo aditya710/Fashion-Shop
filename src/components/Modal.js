@@ -26,7 +26,7 @@ export default class Modal extends Component {
                                         <h2 className="font-weight-bold">Item Added to Cart</h2>
                                         <img src={img} className="img-fluid" alt="product" />
                                         <h3>{title}</h3>
-                                        <h4 className="text-muted">Price: Rs. {price}</h4>
+                                        <h4 className="text-muted">Price: € {price}</h4>
 
                                         <Link to="/men">
                                             <ButtonContainer1 store onClick={() => closeModal()}>
