@@ -19,7 +19,8 @@ function App() {
   return (
     <React.Fragment>
       <Navbar />
-      <Switch>
+      <Switch> 
+        <Route exact path='/' component={Home} />
         <Route exact path='/home' component={Home} />
         <Route exact path='/men' component={MenProductList} />
         <Route exact path='/women' component={WomenProductList} />

@@ -74,7 +74,7 @@ export default class Checkout extends Component {
 
                     <div className="col-6 mx-auto text-left text-title text-uppercase pt-5">
                         
-                        <div className="text-title"><h3 className="font-weight-bold">BILLING INFORMATION</h3></div>
+                        <div className="text-title"><h3 className="font-weight-bold">PAYMENT INFORMATION</h3></div>
                         <div><hr></hr></div>
                         <br/>
                         <div className="checkout">
